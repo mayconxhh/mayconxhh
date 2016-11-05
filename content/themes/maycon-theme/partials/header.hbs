@@ -1,0 +1,31 @@
+{{!-- Navigation Page --}}
+<header>
+  <div id="header" class="header header-topbar">
+    <div class="u-align-center">
+      <div class="header-topbar-left">
+        {{!-- Home logo --}}
+        <a href="{{@blog.url}}" style="line-height:0">
+          <img class="header-logo-home" src="{{@blog.logo}}" alt="{{@blog.title}}" width="40" height="40" >
+        </a> 
+        <a class="header-name-home u-align-center" href="{{@blog.url}}">Maycon X. H. H.</a>
+        {{!-- Logo and Page Name --}}
+        {{!-- <a class="header-logo u-align-center" href="{{@blog.url}}">{{#if @blog.logo}}<img src="{{@blog.logo}}" alt="{{@blog.title}}"/>{{else}}<span>{{@blog.title}}</span>{{/if}}</a> --}}
+      </div>
+      <div class="header-topbar-center">
+        {{!-- Form Search --}}
+        <form class="search">
+          <a href="#" class="search-btn hidden-on-small-screen icon-search"></a>
+          <a href="#" id="search-close" class="search-btn show-on-small-screen icon-arrow_back"></a>
+          <input class="search-field" type="search" placeholder="Search" autocomplete="off">
+          <div id="search-result" class="autocomplete"></div>
+        </form>
+        {{!-- Open buttom search --}}
+        <a href="#" id="search-open" class="search-open show-on-small-screen icon-search"></a>
+        <a href="#" id="menu-open" class="menu-open icon-menu"></a>
+      </div>
+    </div>
+  </div>
+  {{!-- Menu page --}}
+  {{navigation}}
+</header>
+

@@ -1,0 +1,21 @@
+{
+  "name": "Maycon Theme",
+  "version": "1.0.0",
+  "description": "mayconxhh by Maycon Huayapa",
+  "bugs": {
+    "url": "",
+    "email": "mayconxhh@gmail.com"
+  },
+  "license": "mayconxhh",
+  "author": {
+    "name": "mayconxhh",
+    "email": "mayconxhh@gmail.com",
+    "url": "https://mayconxhh.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/godofredoninja/Mapache"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<title>{{meta_title}} | Frontend Web Developer @mayconxhh, CTO  @TeamCromlu, Maycon Xavier Huayapa Huaman</title>
+	<meta name="description" content="{{meta_description}}" />
+	{{!-- icon  --}}
+	<link rel="icon" sizes="192x192" href=" {{asset "img/icon.png"}}" />
+	<link href='https://fonts.googleapis.com/css?family=Poppins:300,400' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="{{asset "css/style.min.css"}}">
+	<link rel="stylesheet" href="{{asset "css/style_about.css"}}">
+	{{ghost_head}}
+</head>
+<body>
+	<div class="landing">
+	{{>'header'}}
+	<section class="godo-cover godo-coverPost cover" style="background-image: url('{{asset "img/portafolio/cover-about.jpg"}}')"><h1 class="godo-post-title animated bounceInDown">Sobre mí</h1>
+	</section>
+	<main class="main">
+	  <section class="main-wrap full-site-width">
+	    <div class="main-post">
+	      {{!-- Post Content --}}
+	      <div class="main-post-box">
+	        <div class="main-post-content">
+	          <article class="post" style="margin-bottom: 4em">
+	            {{!-- content post --}}
+	            <div class="post-main ">
+	              <h2>¿Quién soy?</h2>
+	              <p>Me llamo <a href="http://twitter.com/mayconxhh" target="blank">Maycon Huayapa</a>, tengo 19 años. Soy <strong>Frontend Web Developer</strong>, CTO en <a href="http://twitter.com/teamcromlu"  target="blank">@TeamCromlu</a>, soy una persona autodidacta, me gusta aprender, y tambien compartir el conocimiento que voy adquiriendo poco a poco, y esa es la razón de este blog.</p>
+	              <div class="followBtn">
+	              	<figure class="avatar">
+	              		<img src="{{asset "img/portafolio/avatar.jpg"}}" alt="Maycon Xavier Huayapa Huaman" height="100" width="100">
+	              	</figure>
+	              	<div class="text">
+	              		<h3>Maycon X. Huayapa Huaman</h3>
+	              		<a href="https://twitter.com/mayconxhh" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @mayconxhh</a>
+	              		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	              	</div>
+	              </div>
+	              <p>
+	              	Me encanta el <strong>Desarrollo Web</strong>, día a día me capacito en las tecnologías del lado del <strong>Frontend</strong>, mi objetivo es ser un Full-Stack Web Developer. Hoy en dia me estoy enfocando en tecnologías <strong>Javascript</strong>, ya que se esta explotando mucho este lenguaje, su crecimiento ha sido enorme y ya se esta implementando en casi todo (WebApps, Servidores, Mobile, etc).
+	              </p>
+	              <figure class="about-image">
+	              	<img src="{{asset "img/portafolio/apps.jpg"}}" width="400" height="120" alt="Web Developer" style="margin: 2em auto">
+	              </figure>
+	              <p>
+	              	En este blog les estaré compartiendo información sobre <strong>Desarrollo Web</strong>, más que nada del lado del frontent, tanto cosas básicas para aquellos que recién empiezan a adentrarse en este mundo, pero también a la vez recursos para aprovechar al máximo nuestro tiempo haciendo desarrollo.
+	              </p>
+	              {{!-- <p>
+	              	Una de las cosas que me encanta, es retarme, ya que asi me pongo a prueba y doy el 1000% de mí para lograr aquello que deseo, en el proceso adquiero experiencia, nuevas formas de ver las cosas, se aprende constantemente. Por eso te anímo tambien a retarte a ti mismo, ponte a prueba, empieza por pequeños retos, en los cuales puedas aplicar lo que sabes, que sea de tu nivel, ya q si te pones retos demasiado dificiles o complicados, lo mas probable es que en el intento te aburras y lo dejes, o creas que no eres lo suficientemente bueno para eso.
+	              </p> --}}
+	              <p>
+	              	Si deseas saber más sobre mí, o contactarte conmigo, aquí esta mis redes sociales: <a href="http://facebook.com/mayconxhh" target="blank">Facebook</a>, <a href="http://twitter.com/mayconxhh" target="blank">Twitter</a>, <a href="http://instagram.com/mayconxhh" target="blank">Instagram</a>, <a href="https://www.linkedin.com/in/maycon-xavier-huayapa-huaman-6b08a2117" target="blank">Linkedin</a>, <a href="http://github.com/mayconxhh" target="blank">Github</a>.
+	              </p>
+	            </div>
+	          </article>
+	        </div>
+	      </div>
+	    </div>
+	</main>
+	{{>'footer'}}
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-76136675-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="{{asset "js/vendor.min.js"}}"></script>
+	<script src="{{asset "js/app.min.js"}}"></script>
+</body>
+</html>
